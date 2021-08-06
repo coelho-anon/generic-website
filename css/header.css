@@ -1,0 +1,59 @@
+
+
+#menu{
+	background-color: #093858;
+	color: white;
+	justify-content: flex-end;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+
+	#logo_name span{
+		opacity: .5;
+	}
+
+	.menu_itens{
+		background-color: transparent;
+		border: none;
+		color: white;
+		padding: 2%;
+		font-size: 1.5em;
+		transition: .2s;
+	}
+
+	.menu_itens:hover{
+		cursor: pointer;
+		transition: .2s;
+		background-color: #0a5c94;
+	}
+
+#img_header{
+
+	background-image: url('../Wallpapers/w (5).jpg');
+	/* Full height */
+  	height: 500px; 
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+	#banner{
+		text-align: center;
+		background-color: #ffffff7d;
+		color: #093858;
+		height: 30%;
+		top: 70%;
+
+	}
+
+	#banner p{
+		font-size: 2em;
+	}
+
+	#banner h1{
+		font-size: 4em;
+	}

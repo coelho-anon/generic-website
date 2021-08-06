@@ -1,0 +1,33 @@
+#cards_gallery{
+	margin-top: 5%;
+}
+
+	.cards{/*
+		width: 30%;*/
+		background-color: #093858;
+		text-align: center;
+		color: white;
+	}
+		.cards h2{
+			margin-top: 5%;
+		}
+
+		.cards p{
+			margin-top: 15%;
+		}
+
+		.cards button{
+			transition: .2s;
+			background-color: #7daed0;
+			border: none;
+			padding: 2%;
+			color: white;
+			font-size: 1.5em;
+			margin-bottom: 5%;
+		}
+
+		.cards button:hover{
+			background-color: #1f7dbf;
+			cursor: pointer;
+			transition: .2s;
+		}
